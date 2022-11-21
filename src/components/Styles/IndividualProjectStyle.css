@@ -1,0 +1,25 @@
+.title{
+    text-align:center;
+    color:white;
+    font-size:18px;
+    margin: 0;
+}
+
+.title span{
+    margin-right: 10px;
+}
+
+.image{
+    width: 100%;
+    box-shadow:1px 1px 8px white;
+    margin: 0;
+    transition: 300ms;
+    /* cursor: pointer; */
+    min-width: 220px;
+    border-radius: 10px;
+}
+.image:hover{ 
+    transform: translateY(5px);
+    transform: translateX(2px);
+    box-shadow:1px 1px 15px white;
+}

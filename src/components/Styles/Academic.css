@@ -1,0 +1,39 @@
+.main{
+    background-image:url("../../../public/images/original.gif");
+    min-height: 100vh;
+    background-color: red;
+}
+h3{
+    font-size:22px ;
+    margin: 0;
+}
+
+h2{
+    margin: 5px;
+    font-size:16px ;
+    color: #444;;
+}
+
+.Header{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.Header span{
+    margin: 0;
+    font-size: 28px;
+}
+
+@media only screen and (max-width:700px) {
+    h3{
+        font-size:16px ;
+        margin: 0;
+    }
+    
+    h2{
+        font-size: 14px;
+        margin: 5px;
+        color: #444;;
+    }
+}

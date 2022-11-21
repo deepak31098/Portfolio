@@ -1,0 +1,40 @@
+.iconsContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.icons{
+    margin: 0 10px;
+    transition: 300ms;
+    display: inline-block;
+}
+
+.contact{
+    text-align: center;
+    color: white;
+}
+
+p{
+    margin: 5px;
+}
+.mainContainer{
+    text-align: center;
+    background-color:#000000;
+    padding: 10px;
+}
+
+.icons :hover{
+    transform: translateY(-4px);
+}
+
+.youtube{
+    color:white;
+}
+
+.facebook{
+    color: white;
+}
+
+.instagram{
+    color:white;
+}
