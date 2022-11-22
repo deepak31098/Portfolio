@@ -7,11 +7,12 @@
     margin: 0 10px;
     transition: 300ms;
     display: inline-block;
+    color: black;
 }
 
 .contact{
     text-align: center;
-    color: white;
+    /* color: white; */
 }
 
 p{
@@ -19,7 +20,7 @@ p{
 }
 .mainContainer{
     text-align: center;
-    background-color:#000000;
+    background-color:#F5F5F5;
     padding: 10px;
 }
 
@@ -27,7 +28,7 @@ p{
     transform: translateY(-4px);
 }
 
-.youtube{
+/* .youtube{
     color:white;
 }
 
@@ -37,4 +38,4 @@ p{
 
 .instagram{
     color:white;
-}
+} */

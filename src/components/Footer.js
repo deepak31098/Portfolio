@@ -1,10 +1,10 @@
 import React from "react";
 import './Styles/Footerstyle.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faYoutube,faFacebook,faInstagram,faGoogle
-} from '@fortawesome/free-brands-svg-icons'
-
+// import {
+//     faYoutube,faFacebook,faInstagram,faGoogle
+// } from '@fortawesome/free-brands-svg-icons'
+import { faContactBook } from "@fortawesome/free-solid-svg-icons";
 
 function Footer(){
     return (
@@ -14,8 +14,8 @@ function Footer(){
             <FontAwesomeIcon  icon={faYoutube} size="2x"/></a>
             <a href="https://www.facebook.com" className="icons facebook"> 
             <FontAwesomeIcon  icon={faFacebook} size="2x"/></a> */}
-            <a href="mailto:deepaktiwari6234@gmail.com" className="icons instagram"> 
-            <FontAwesomeIcon icon={faGoogle} size="2x"/></a>
+            <a id="Contact" href="mailto:deepaktiwari6234@gmail.com" className="icons instagram"> 
+            <FontAwesomeIcon icon={faContactBook} size="2x"/></a>
             </div>
             <div className="contact">
                 <p>&copy; Deepak 2022 </p>

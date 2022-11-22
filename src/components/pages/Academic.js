@@ -2,13 +2,14 @@ import React from "react";
 import { VerticalTimeline,VerticalTimelineElement } from "react-vertical-timeline-component";
 import 'react-vertical-timeline-component/style.min.css'
 import '../Styles/Academic.css';
+
 function Academic(){
     return (
         <div className="main">
             <div className="Header">
-            <span >Academic</span>
+                <span id="Academic">Academic</span>
             </div>
-            <VerticalTimeline lineColor="black">
+            <VerticalTimeline lineColor="transparent">
                 <VerticalTimelineElement 
                 iconStyle={{backgroundColor:"transparent"}}>
                     <h3>Post-Graduation</h3>

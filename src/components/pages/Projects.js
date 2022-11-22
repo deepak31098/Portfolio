@@ -7,7 +7,7 @@ import projects from"./Project.js";
 function Projects(){
     return(
         <Main>
-        <Header><Heading>My Project</Heading></Header>
+        <Header><Heading id="project" >My Project</Heading></Header>
         <Container>
         {projects.map((elem) => <IndividualProject name={elem.title} image={elem.name} github={elem.github} link={elem.link} />
         )}

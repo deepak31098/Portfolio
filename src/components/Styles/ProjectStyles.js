@@ -4,31 +4,32 @@ export const Container= styled.div`
 
     display: grid;
     padding: 35px;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     align-items: center;
     grid-gap: 30px;
     justify-items: normal;
-    @media only screen and (max-width:900px) {
-        grid-template-columns: repeat(2,1fr);
-    }
-    @media only screen and (max-width:600px) {
+    @media only screen and (max-width:850px) {
         grid-template-columns: repeat(1,1fr);
     }
+    ${'' /* @media only screen and (max-width:600px) {
+        grid-template-columns: repeat(1,1fr);
+    } */}
 ` 
 
 export const Header= styled.div`
-    margin:0;
+    margin:20px;
     background-color:transparent;
-    color:white;
+    font-weight:bold;
     padding:15px;
     text-align:center
 `
 
 export const Main= styled.div`
-    background-image:url("./images/original.gif");
+    ${'' /* background-image:url("./images/dark.png"); */}
+    background-color:#F5F5F5;
 `
 
 export const Heading= styled.span`
-    font-size:28px;
+    font-size:30px;
     margin:0
 `

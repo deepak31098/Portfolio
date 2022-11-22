@@ -1,7 +1,7 @@
 .main{
-    background-image:url("../../../public/images/original.gif");
+    background-image:url("../../../public/images/dark.png");
+    background-color:#372948;
     min-height: 100vh;
-    background-color: red;
 }
 h3{
     font-size:22px ;
@@ -17,12 +17,12 @@ h2{
 .Header{
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 30px;
+    font-weight:bold;
 }
 
 .Header span{
-    margin: 0;
-    font-size: 28px;
+    font-size: 30px;
 }
 
 @media only screen and (max-width:700px) {

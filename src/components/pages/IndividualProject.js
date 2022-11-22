@@ -9,13 +9,13 @@ const myStyle={backgroundImage:`url(${prop.image})`
 
     return (
         <div>
-            <a href={prop.link}><div className="projectImg">
+            <a href={prop.link} target="_blank"><div className="projectImg">
             <img className="image" src={prop.image}></img>
             </div>
             </a>
             <div className="title" >
             <span > {prop.name}</span>
-            <a href={prop.github}><FontAwesomeIcon icon={faGithub}/></a>
+            <a href={prop.github} target="_blank"><FontAwesomeIcon icon={faGithub} size='2x'/></a>
             </div>
         </div>
 
