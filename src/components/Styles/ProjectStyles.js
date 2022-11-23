@@ -17,10 +17,10 @@ export const Container= styled.div`
 ` 
 
 export const Header= styled.div`
-    margin:20px;
+    margin-bottom:20px;
     background-color:transparent;
     font-weight:bold;
-    padding:15px;
+    padding-top:30px;
     text-align:center
 `
 

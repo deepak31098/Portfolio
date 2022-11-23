@@ -28,19 +28,19 @@ export const ImageContainer = styled.div`
     display: grid;
     padding: 1%;
     grid-template-columns: repeat(4,1fr);
-    grid-gap:30px;
+    grid-gap:35px;
     justify-items: center;
     align-items: center;
     text-align:center;
     @media only screen and (max-width:1000px) {
         grid-template-columns: repeat(3,1fr);
     }
-    @media only screen and (max-width:900px) {
+    @media only screen and (max-width:800px) {
         grid-template-columns: repeat(2,1fr);
         grid-gap:10px;
         padding: 10px;
     }
-    @media only screen and (max-width:600px) {
+    @media only screen and (max-width:550px) {
         grid-template-columns: repeat(1,1fr);
 
     }

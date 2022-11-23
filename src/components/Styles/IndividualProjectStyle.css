@@ -8,17 +8,39 @@
     margin-right: 10px;
 }
 
+.title a{
+    color:#372948;
+}
+
 .image{
     width: 100%;
     box-shadow:1px 1px 8px white;
     margin: 0;
-    transition: 300ms;
+    transition: 500ms;
     /* cursor: pointer; */
     min-width: 220px;
     border-radius: 10px;
 }
+
+.projectImg{
+    position: relative;
+}
+
 .image:hover{ 
-    transform: translateY(5px);
-    transform: translateX(2px);
-    box-shadow:1px 1px 15px white;
+    transform: translateY(3px);
+    box-shadow:1px 1px 15px #372948;
+    filter: brightness(20%);
+}
+
+.description{
+    color:white;
+    position: absolute;
+    line-height: 1.5;
+    background-color: #3C4048;
+    background-image:url("../../../public/images/dark.png");
+    left: 0;
+    top: 0;
+    border-radius: 10px 10px 0 0;
+    padding: 20px;
+    width: auto;
 }
