@@ -1,11 +1,15 @@
 import styled from "styled-components";
 
 export const Description = styled.div`
-    margin:0;
     line-height:35px;
+   
+  
 `
 export const Deepak = styled.span`
     font-size:50px;
+    @media only screen and (max-width:600px) {
+        font-size:40px;
+    }
 `
 
 export const Main = styled.div`
@@ -16,14 +20,25 @@ export const Main = styled.div`
     justify-content: center;
 
     background-color:#F5F5F5;
-    padding-left:5%;
+    ${'' /* padding-left:5%; */}
     background-image:url("./images/profile.png");
+    
     background-repeat:no-repeat;
     background-size:contain;
-    background-position:right 0;
-    @media only screen and (max-width:700px) {
-        background-position:left 0 bottom 50px;
-        color:white;
+    background-position:right 0 center;
+    position:relative;
+    isolation:isolate;
+    ::after{
+        content:"";
+        position:absolute;
+        background-color:white;
+        opacity:.1;
+        z-index:-1;
+        width:100%;
+        height:100%;
+        @media only screen and (max-width:800px) {
+            opacity:.3;
+    }
     }
 `
 
@@ -35,10 +50,16 @@ export const Info = styled.span`
 
 
 export const Tag = styled.a`
-    margin:5px 10px;
+    margin:10px 15px 0 0;
     color:#372948;
 `
 
 export const Image = styled.img`
     width:100px;
+
+`
+
+export const Wrap = styled.div`
+    margin-left:3%;
+
 `

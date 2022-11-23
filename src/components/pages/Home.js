@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {Description,Main,Deepak,Tag,Info,Image} from '../Styles/HomeStyle';
+import {Description,Main,Deepak,Tag,Info,Image,Wrap} from '../Styles/HomeStyle';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faGithub,faDochub
@@ -13,7 +13,7 @@ function Home(){
     return (
         <>
         <Main id="Home">
-            <div>
+            <Wrap>
                 <Description>
                     <Deepak>Hey there, My Name is Deepak</Deepak>
                     <div><i><span>A Developer having passion for learning and designing websites</span></i></div>
@@ -27,7 +27,7 @@ function Home(){
                         <FontAwesomeIcon icon={faReceipt} size='2x'/>
             </Tag>
             <Info>Resume</Info>
-            </div>
+            </Wrap>
             {/* <Image src="images/prof.png"/> */}
         </Main>
         
