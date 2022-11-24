@@ -5,7 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
     faGithub,faDochub
 } from '@fortawesome/free-brands-svg-icons'
-import Skills from './Skills';
 import { faReceipt } from '@fortawesome/free-solid-svg-icons';
 
 function Home(){

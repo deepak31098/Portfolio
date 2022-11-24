@@ -8,13 +8,17 @@
     background-color:#372948;
     width:100%;
     min-height: 80px;
-    position:fixed;
-    z-index: 1;
+    /* position:fixed; */
+    /* z-index: 0; */
+    position: sticky;
+    top:0;
+    z-index:10;
 }
 
 img{
     width: 40px;
     margin:15px;
+    cursor: pointer;
 }
 
 .links{

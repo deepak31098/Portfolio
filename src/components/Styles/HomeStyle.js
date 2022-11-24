@@ -15,7 +15,7 @@ export const Deepak = styled.span`
 export const Main = styled.div`
     display: flex;
     text-align: left;
-    min-height: 100vh;
+    min-height: 90vh;
     flex-direction: column;
     justify-content: center;
 
